@@ -1,8 +1,15 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 
-a {
-  color: #00B7FF;
+.base-class {
+  -webkit-transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
+  transition:all cubic-bezier(0.250, 0.460, 0.450, 0.940) 0.5s;
 }
+
+.base-class.my-class {
+  color: red;
+  font-size:3em;
+}
+
+
